@@ -1,0 +1,1 @@
+cmd_/home/ga/dalipi3/moduleRPiDALI/RPi_DALI_drv.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/ga/dalipi3/moduleRPiDALI/RPi_DALI_drv.ko /home/ga/dalipi3/moduleRPiDALI/RPi_DALI_drv.o /home/ga/dalipi3/moduleRPiDALI/RPi_DALI_drv.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/ga/dalipi3/moduleBBBdali3/dali_drv3.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/ga/dalipi3/moduleBBBdali3/dali_drv3.ko /home/ga/dalipi3/moduleBBBdali3/dali_drv3.o /home/ga/dalipi3/moduleBBBdali3/dali_drv3.mod.o ;  true
